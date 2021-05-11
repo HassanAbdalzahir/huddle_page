@@ -2,8 +2,94 @@ body{
     font-family: Arial, tahoma, sans-serif;
 }
 @media (max-width: 767px) {
+    .container{
+        width: 90%;
+        margin: auto;
+    }
 
- }
+    .big_container{
+         width: 100%;
+         margin: auto;
+         position: relative;
+         background-color: #674BB1;
+         padding-bottom: 40px;
+    }
+
+    .big_container .slide{
+         background-image: url('../images/bg-mobile.svg');
+         background-repeat: no-repeat;
+         width: 100%;
+         height: 100%;
+    }
+    .nav_bar{
+        height: 15%;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
+    .nav_bar img{
+        width: 10rem;
+    }
+    .left_side, .right_side{
+        margin:auto;
+        text-align: center;
+    }
+    .left_side{
+        margin-top: 60px;
+    }
+    .left_side img {
+        width: 90%;
+    }
+    .right_side{
+        margin-top: 90px;
+        color: #eee;
+    }
+    .right_side strong{
+        font-size: 1.6rem;
+        letter-spacing: 1.2px;
+    }
+    .right_side p{
+        font-size: 1.2rem;
+        font-weight: lighter;
+        padding-top: 20px;
+    }
+    .right_side button{
+        width: 150px;
+        padding: 10px;
+        border-radius: 100px;
+        outline: hidden;
+        border: none;
+        color: #674BB1;
+        box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.432);
+        font-size: .9rem;
+        cursor: pointer;
+        margin: 15px
+    }
+    .right_side button:hover{
+        background-color: orchid;
+        color: #eee;
+    }
+    /*.bottom_bar {
+
+    }*/
+    .bottom_bar .min_container{
+        width: 35%;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .bottom_bar .min_container img {
+        width: 25px;
+        cursor: pointer;
+        float: right;
+    }
+    .bottom_bar .min_container .last-child{
+        float: left;
+    }
+    .bottom_bar .min_container .middle{
+        float: none;
+    }
+}
+/* ************************************* */
  @media (min-width: 768px) {
     .container{
         width: 95%;
@@ -71,6 +157,10 @@ body{
         box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.432);
         font-size: .9rem;
         cursor: pointer;
+    }
+    .right_side button:hover{
+        background-color: orchid;
+        color: #eee;
     }
     /*.bottom_bar {
 
